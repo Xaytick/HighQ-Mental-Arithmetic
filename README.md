@@ -1,2 +1,7 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6355771&assignment_repo_type=AssignmentRepo)
 # HighQ-Mental-Arithmetic
+帮助小学生练习口算的安卓app
+对六个年级的上下学期有不同的出题策略
+题目为随机生成，并且可进行自定义设置
+实现错题集功能，并统计题数和正确率
+支持习题和错题集导出为pdf，可连接打印机打印纸质版习题和错题集
+an android app to help elementary school students to exercise mental arithmetic
