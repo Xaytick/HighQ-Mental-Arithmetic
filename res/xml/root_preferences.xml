@@ -1,0 +1,73 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <PreferenceCategory app:title="settings">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="sync"
+            app:title="高级" />
+        <EditTextPreference
+            app:dependency="sync"
+            app:key="signature1"
+            app:title="运算符个数"
+            app:defaultValue="1"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:dependency="sync"
+            app:key="signature2"
+            app:title="整数最小值"
+            app:defaultValue="1"
+            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:dependency="sync"
+            app:key="signature3"
+            app:title="整数最大值"
+            app:defaultValue="30"
+            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment1"
+            app:summaryOff="no"
+            app:summaryOn="yes"
+            app:defaultValue="false"
+            app:title="是否添加括号" />
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment2"
+            app:summaryOff="无加法"
+            app:summaryOn="含加法"
+            app:defaultValue="true"
+            app:title="添加加法" />
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment3"
+            app:summaryOff="无减法"
+            app:summaryOn="含减法"
+            app:defaultValue="true"
+            app:title="添加减法" />
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment4"
+            app:summaryOff="无乘法"
+            app:summaryOn="含乘法"
+            app:defaultValue="true"
+            app:title="添加乘法" />
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment5"
+            app:summaryOff="无除法"
+            app:summaryOn="含除法"
+            app:defaultValue="true"
+            app:title="添加除法" />
+        <SwitchPreferenceCompat
+            app:dependency="sync"
+            app:key="attachment6"
+            app:summaryOff="no"
+            app:summaryOn="yes"
+            app:defaultValue="true"
+            app:title="是否添加分数" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

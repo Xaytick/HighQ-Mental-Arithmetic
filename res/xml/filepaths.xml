@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--    所有文件都有效-->
+    <root-path
+        name="root-path"
+        path="" />
+    <!--    指定路徑下的文件-->
+    <external-path
+        name="download"
+        path="/glacier/house/download/" />
+
+</paths>
